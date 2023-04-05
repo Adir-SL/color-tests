@@ -14,4 +14,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-#coming{}
+#coming{
+    padding: 32px;
+    background-color: #ffffff;
+}
