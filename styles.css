@@ -31,7 +31,7 @@ body{
 #menu a{
     text-decoration: none;
     padding: 32px;
-    color: #ffffff;
+    color: #ffff00;
     background-color: deeppink;
     transition: filter 150ms ease-in-out 0s;
 }
