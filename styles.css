@@ -30,8 +30,9 @@ body{
 }
 #menu a{
     text-decoration: none;
-    padding: 3vw;
+    padding: 32px;
     color: #ffffff;
+    background-color: hotpink;
 }
 #menu a:hover{
     filter: hue-rotate(180deg);
