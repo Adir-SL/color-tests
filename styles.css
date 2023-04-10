@@ -31,10 +31,12 @@ body{
 #menu a{
     text-decoration: none;
     padding: 32px;
-    color: #ffff00;
+    color: white;
     background-color: deeppink;
-    transition: filter 150ms ease-in-out 0s;
+    transition: all 150ms ease-in-out 0s;
 }
 #menu a:hover{
+    padding-bottom: 36px;
     filter: hue-rotate(180deg);
+    mix-blend-mode:hard-light;
 }
