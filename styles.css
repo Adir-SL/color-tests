@@ -27,7 +27,6 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: deeppink;
-    border-bottom: 4px solid greenyellow;
 }
 #menu a{
     text-decoration: none;
