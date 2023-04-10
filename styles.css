@@ -24,4 +24,6 @@ body{
     width: 100%;
     padding: 32px;
     top: 0;
+    display: flex;
+    justify-content: space-between;
 }
