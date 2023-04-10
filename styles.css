@@ -28,3 +28,7 @@ body{
     justify-content: space-between;
     background-color: pink;
 }
+#menu a{
+    text-decoration: none;
+    margin: 3vw;
+}
