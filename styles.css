@@ -33,6 +33,7 @@ body{
     padding: 32px;
     color: #ffffff;
     background-color: hotpink;
+    transition: filter 150ms ease-in-out 0s;
 }
 #menu a:hover{
     filter: hue-rotate(180deg);
