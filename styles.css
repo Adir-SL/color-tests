@@ -21,7 +21,7 @@ body{
 }
 #menu{
     position: sticky;
-    /* width: 100%; */
+    color: #ffffff;
     padding: 32px;
     top: 0;
     display: flex;
