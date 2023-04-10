@@ -33,3 +33,6 @@ body{
     margin: 3vw;
     color: #ffffff;
 }
+#menu a:hover{
+    filter: hue-rotate(180deg);
+}
