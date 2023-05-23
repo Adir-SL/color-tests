@@ -6,7 +6,7 @@ function colorCount(){
 
 function addColor(a){
     if(a > window.countNum){
-        document.getElementById("main-flex").innerHTML += '<svg id="container-1" width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="70" fill="#f00"/></svg>';
+        document.getElementById("main-flex").innerHTML += '<svg id="container-1" class="color-container" width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="70" fill="#f00"/></svg>';
         window.countNum += 1;
         addColor(Number(document.getElementById("input-slider").value));
     }
@@ -15,6 +15,11 @@ function addColor(a){
 
 function updateColors(a){
     console.log(hexToRgb(document.getElementById("colorPicker-1").value));
+    var x = document.getElementsByClassName("color-container");
+    var i;
+    for (i = 0; i < x.length; i++) {
+        x[i].getElementsByTagName("circle").style.fill = document.getElementById("colorPicker-1").value;
+    }
 }
 
 function hexToRgb(hex) {
