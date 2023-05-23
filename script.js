@@ -10,4 +10,9 @@ function addColor(a){
         window.countNum += 1;
         addColor(Number(document.getElementById("input-slider").value));
     }
+    updateColors(a);
+}
+
+function updateColors(a){
+    
 }
