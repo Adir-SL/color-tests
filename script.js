@@ -15,6 +15,14 @@ function addColor(a){
 
 function updateColors(a){
     // console.log(hexToRgb(document.getElementById("colorPicker-1").value));
+    color_1_r = hexToRgb(document.getElementById("colorPicker-1").value).r;
+    color_1_g = hexToRgb(document.getElementById("colorPicker-1").value).g;
+    color_1_b = hexToRgb(document.getElementById("colorPicker-1").value).b;
+
+    color_2_r = hexToRgb(document.getElementById("colorPicker-2").value).r;
+    color_2_g = hexToRgb(document.getElementById("colorPicker-2").value).g;
+    color_2_b = hexToRgb(document.getElementById("colorPicker-2").value).b;
+
     var x = document.getElementsByClassName("color-container");
     var i;
     for (i = 0; i < x.length; i++) {
