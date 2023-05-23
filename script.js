@@ -14,11 +14,11 @@ function addColor(a){
 }
 
 function updateColors(a){
-    console.log(hexToRgb(document.getElementById("colorPicker-1").value));
+    // console.log(hexToRgb(document.getElementById("colorPicker-1").value));
     var x = document.getElementsByClassName("color-container");
     var i;
     for (i = 0; i < x.length; i++) {
-        x[i].getElementsByTagName("circle").style.fill = document.getElementById("colorPicker-1").value;
+        x[i].getElementsByTagName("circle")[0].style.fill = document.getElementById("colorPicker-1").value;
     }
 }
 
