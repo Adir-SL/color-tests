@@ -14,5 +14,5 @@ function addColor(a){
 }
 
 function updateColors(a){
-    
+    console.log(document.getElementById("colorPicker-1").value);
 }
