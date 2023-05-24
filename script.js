@@ -14,7 +14,7 @@ function addColor(a){
 }
 
 function updateColors(a){
-    // console.log(hexToRgb(document.getElementById("colorPicker-1").value));
+    
     color_1_r = hexToRgb(document.getElementById("colorPicker-1").value).r;
     color_1_g = hexToRgb(document.getElementById("colorPicker-1").value).g;
     color_1_b = hexToRgb(document.getElementById("colorPicker-1").value).b;
