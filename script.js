@@ -26,7 +26,7 @@ function updateColors(a){
     var x = document.getElementsByClassName("color-container");
     var i;
     for (i = 0; i < x.length; i++) {
-        x[i].getElementsByTagName("circle")[0].style.fill = "rgb("+ (color_1_r + color_2_r / a * (i+1)) +","+ (color_1_g + color_2_g / a * (i+1)) +","+ (color_1_b + color_2_b / a * (i+1)) +")";
+        x[i].getElementsByTagName("circle")[0].style.fill = "rgb("+ (((color_1_r + color_2_r)/2) / a * (i+1)) +","+ (((color_1_g + color_2_g)/2) / a * (i+1)) +","+ (((color_1_b + color_2_b)/2) / a * (i+1)) +")";
     }
 }
 
