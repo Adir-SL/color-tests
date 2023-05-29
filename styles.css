@@ -4,3 +4,7 @@
     justify-content: space-evenly;
     align-items: center;
 }
+.space-items{
+    justify-content: center;
+    gap: 8px;
+}
