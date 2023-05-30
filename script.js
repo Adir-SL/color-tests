@@ -6,7 +6,7 @@ function colorCount(){
 
 function addColor(a){
     if(a > window.countNum){
-        document.getElementById("main-flex").innerHTML += '<svg id="container-1" class="color-container" width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="100" height="100" rx="15" fill="#f00" stroke="#ddd"/></svg>';
+        document.getElementById("main-flex").innerHTML += '<svg id="container-1" class="color-container" width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="200" rx="15" fill="#f00" stroke="#ddd"/></svg>';
         window.countNum += 1;
         addColor(6);
     }
