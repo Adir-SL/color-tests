@@ -5,13 +5,14 @@
     align-items: center;
 }
 .space-items{
-    justify-content: center;
+    justify-content: space-between;
     gap: 8px;
     padding-top: 40px;
 }
 input[type="color"]{
-    width: 40px;
-    height: 40px;
+    width: 192px;
+    height: 24px;
     outline: none;
     border: none;
+    box-shadow: 0 0 0 10px white inset;
 }
