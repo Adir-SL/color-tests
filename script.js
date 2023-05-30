@@ -26,7 +26,7 @@ function updateColors(a){
     var x = document.getElementsByClassName("color-container");
     var i;
     for (i = 0; i < x.length; i++) {
-        x[i].getElementsByTagName("circle")[0].style.fill = "rgb("+ ((color_1_r / (a+(i+1-a))) + (color_2_r / (a-i))) +","+ ((color_1_g / (a+(i+1-a))) + (color_2_g / (a-i))) +","+ ((color_1_b / (a+(i+1-a))) + (color_2_b / (a-i))) +")";
+        x[i].getElementsByTagName("rect")[0].style.fill = "rgb("+ ((color_1_r / (a+(i+1-a))) + (color_2_r / (a-i))) +","+ ((color_1_g / (a+(i+1-a))) + (color_2_g / (a-i))) +","+ ((color_1_b / (a+(i+1-a))) + (color_2_b / (a-i))) +")";
     }
 }
 
