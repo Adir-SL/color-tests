@@ -4,6 +4,9 @@
     justify-content: space-evenly;
     align-items: center;
 }
+#main-flex{
+    margin-top: 52px;
+}
 .space-items{
     justify-content: space-between;
     gap: 8px;
